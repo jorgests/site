@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Desenvolvimento de Site</title>
+
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application' %>
+  </head>
+
+  <body>
+
+    <div class="card text-white bg-dark">
+      <div class="card-header">
+        Desenvolvimento de Websites Profissionais
+      </div>
+    </div>
+    <div class="card-body">
+
+      <div class="creates">
+        <ul class="create">CRIAÇÃO</ul>
+        <ul class="thesites">DE SITES !</ul>
+      </div>
+
+      <img src="images/nieuwe-website-malu-dance-company.jpg">
+
+    </div>
+    <div class="card-footer text-muted bg-dark">
+      Nossos projetos são basiados dentro da necessidade do cliente
+    </div>
+
+    <!-- <nav class="navbar navbar-dark navbar-expand-lg bg-dark bg-light">
+      <a class="navbar-brand">Desenvolvimento de Websites Profissionais</a>
+    </nav>
+
+        <div class="creates">
+          <ul class="create">CRIAÇÃO</ul>
+          <ul class="thesites">DE SITES</ul>
+        </div>
+
+        <img src="images/web2.jpg"> -->
+
+
+    <%= yield %>
+  </body>
+</html>
+<!-- <div class="footer">
+  <p>Nossos projetos são basiados dentro da necessidade do cliente</p>
+</div> -->
